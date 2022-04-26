@@ -1,0 +1,87 @@
+body{
+    padding: 0;
+    overflow:scroll;
+}
+.container{
+    /* overflow: scroll; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    /* background-color: aqua; */
+    height: 125vh;
+    margin: 0 25% 0 25%;
+    border: solid 1px black;
+    box-shadow: 5px 5px black;
+}
+#search{
+    position: absolute;
+    top: 3%;
+    margin-left: 30%;
+    display: flex;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 40%;
+    height: 15vh;  
+    
+}
+#search input{
+    background-color: #e3e9e7;
+    margin-top: 10%;
+    width: 80%;
+    height: 6vh;
+    border-radius: 10px;
+    font-size: 25px;
+}
+#search i{
+    margin-top: 12%;
+    font-size: 30px;
+    color: #b4d8e7;
+}
+#recette{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 15%;
+    width: 100%;
+    height: 35vh;
+    background-color: #ede5ff;
+}
+#recette{
+    color: black;
+    font-weight: 800;
+}
+#recette img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+#popup{
+    position: absolute;
+    top: 50%;
+    margin: 0 5% 0 3%;
+    width: 95%;
+    height: 60vh;
+    
+}
+#popup img{
+    width: 100%;
+    height: 50vh;
+}
+#footer{
+    width: 100%;
+    /* margin-top: 10%; */
+    padding: 1% 1%;
+    /* border: solid 2px white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}#footer i{
+    color: #b4d8e7;
+    font-size: 50px;
+}

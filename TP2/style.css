@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aqua;
+    display: flex;
+}
+body button{
+    height: 5vh;
+    width: 3%;
+}
+.classlist{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 20%;
+    height: 100vh;
+}
+.close{
+    display: none;
+}
+.person{
+    background-color: blue;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+.iconelist{
+  background-color: green;
+  width: 100%;
+  height: 80%;
+
+}
+.iconelist input{
+    width: 60%;
+    height: 3vh;
+    border-radius: 15px;
+}
+.iconelist i{
+    margin-left: 5%;
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+.iconemenu{
+    width: 100%;
+    height: 10%;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+}
+
+.person img{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    
+}
+.imgtext{
+    width: 75%;
+    display: flex;
+    align-items: center;   
+}
+.imgtext span{
+    margin-left: 5%;
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+
+}
+.imgtext img{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+.icones{
+    width: 100%;
+    height: 10%;
+    background-color: brown;
+    display: flex;
+    align-items: center;  
+}
+.icones span{
+    color: white;
+    font-size: 1rem;
+
+}

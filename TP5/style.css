@@ -1,0 +1,130 @@
+body{
+    
+    padding: 0;
+    margin: 0;
+    background-color: #322783;
+    overflow-y: scroll;
+     display: flex; 
+    flex-direction: column; 
+    justify-content: space-around;
+  
+    
+   /*  gap: 15px; */
+}
+.spin{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+    width: 80px;
+    height: 80px;
+    border: solid 18px rgb(179, 179, 216);
+    border-radius: 50%;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    /* -webkit-animation: spin 2s linear infinite; /* Safari */ 
+    animation: spin 6s linear infinite; 
+}
+#search{
+    
+    background-color: #322783;
+    color: white;
+    height: 4.5vh;
+    border-radius: 12px;
+    margin: 2% 0 0 87%;
+}
+
+#container{
+    width: 100%;
+    height: auto;
+    /* border: solid 2px white; */
+    display: flex;
+    flex-wrap: wrap;
+}
+#imgtext{
+    width: 100%;
+    height: 80%; 
+    margin: 1% 0 0 1%;
+    display: flex;
+    /* border: solid 1px #322783; */
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#imgtext .block{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    width: 20%;
+    height: 100%;
+    transition: all 1s ease;
+    
+
+}
+#image{
+   /*  background-image: url('img/foret.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+        width: 99%;
+        height: 70%;
+        border: solid 1px #322783;
+        border-radius: 10px;
+        margin: 1% 0 0 1%;  
+        transition: all 1s ease; 
+}
+#image img{
+    width: 100%;
+    height: 55vh;
+    
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+#image img:hover{
+   transition: all 0.6s ease;
+}
+#imgtext span{
+    color: white;
+    /* margin: 10% 0 0 35% ; */
+    font-size: 20px;
+    width: 100%;
+    height: 15%;
+    /* margin-top: 8%; */
+    background-color: #5946e2;
+    border: solid 1px #322783;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+#descript{
+    display: none;  
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    height: auto;
+    color: black;
+    z-index: 2;
+    background-color: white;
+    transform: translateY(100px);
+
+    
+}
+#imgtext span h2{
+    text-align: center;
+    color: #107e16;
+    width: 15%;
+    height: 5%;
+    background-color: black;
+}
+/* #descript:hover{
+    transform: translateY(-100px);
+    transition: all 0.6s ease;
+
+
+}
+ */
